@@ -6,6 +6,7 @@
     font-size: 20px;
     position: sticky;
     top: 0;
+    padding-bottom: 1%;
     justify-content: center;
     
 }
@@ -18,12 +19,13 @@
 
 }
 #nav_logo{
+    display: flex;
     background-image: linear-gradient(to top);
     background-size: 100%;
-    display: flex;
     cursor: pointer;
     text-decoration: none;
 }
+
 .nav_menu{
     display: flex;
     align-items: center;
