@@ -10,6 +10,9 @@
     justify-content: center;
     
 }
+body{
+    background: #523f0f;
+}
 .container{
     display: flex;
     justify-content: center;
