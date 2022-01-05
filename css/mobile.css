@@ -12,4 +12,9 @@
     .logo{
         display: none;
     }
-} 
+    .paragraph1{
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+}

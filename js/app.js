@@ -1,29 +1,20 @@
-var i = 3; 			// Start Point
-var images = [];	// Images Array
-var time = 3000;	// Time Between Switch
+var i = 0; 
+var image = [];
+var time = 3000;
 	 
-// Image List
-images[0] = "images /IMG_1809.jpeg";
-images[1] = "images /IMG_1437.jpeg";
-images[2] = "images /IMG_1437.jpeg";
-images[3] = "images /IMG_1437.jpeg";
+image[0] = "images /IMG_1809.jpeg";
+image[1] = "images /IMG_1437.jpeg";
+image[2] = "images /IMG_1809.jpeg";
+image[3] = "images /IMG_1441.jpeg";
 
-// Change Image
-function changeImg(){
-	document.slideshow.src = images[i];
 
-	// Check If Index Is Under Max
-	if(i < images.length - 1){
-	  // Add 1 to Index
+function imagechanger(){
+	document.slideshow.src = image[i];
+	if(i < image.length - 1){
 	  i++; 
 	} else { 
-		// Reset Back To O
 		i = 0;
 	}
-
-	// Run function every x seconds
-	setTimeout("changeImg()", time);
+	setTimeout("imagechanger()", time);
 }
-
-// Run function when page loads
-window.onload=changeImg;
+window.onload=imagechanger;
