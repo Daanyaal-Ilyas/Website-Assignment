@@ -144,6 +144,13 @@ form {
   label{
       color: #fff;
   }
+  table {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    min-width: 400px;
+    color: #fff;
+  }
 @media screen and (max-width: 960px) {
     .nav{
     position: relative;
