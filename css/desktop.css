@@ -21,7 +21,6 @@ body{
     max-width: 1300px;
 
 }
-
 #nav_logo{
     display: flex;
     background-image: linear-gradient(to top);
@@ -63,13 +62,14 @@ img.slideshow{
     color:#af8f3f;
 }
 footer{
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     height: 100px;
     display: block;
     background: #523f0f;
 }
+
 p.copyright{
     text-align-last: center;
     font-size: 30px;
