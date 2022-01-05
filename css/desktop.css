@@ -6,7 +6,7 @@
     font-size: 20px;
     position: sticky;
     top: 0;
-    padding-bottom: 1%;
+    padding-bottom: 2%;
     justify-content: center;
     
 }
@@ -21,6 +21,7 @@ body{
     max-width: 1300px;
 
 }
+
 #nav_logo{
     display: flex;
     background-image: linear-gradient(to top);
@@ -28,7 +29,17 @@ body{
     cursor: pointer;
     text-decoration: none;
 }
+.images{
+    height: 100%;
+    position: relative;
 
+}
+img.slideshow{
+    display: flex;
+    position: relative;
+    margin: auto;
+    align-items: center;
+}
 .nav_menu{
     display: flex;
     align-items: center;
@@ -60,6 +71,11 @@ footer{
     background: #523f0f;
 }
 p.copyright{
+    text-align-last: center;
+    font-size: 30px;
+    color: #fff;
+}
+h2.welcome{
     text-align-last: center;
     font-size: 30px;
     color: #fff;
