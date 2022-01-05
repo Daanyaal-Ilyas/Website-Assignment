@@ -135,7 +135,7 @@ form {
     width: 120px;
   }
   .submitContainer {
-    justify-content: flex-end;
+      justify-content: center;
   }
   input[type="submit"] {
     width: auto;
