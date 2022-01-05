@@ -1,2 +1,2 @@
 Name Daanyaal Ilyas
-Dasabase: I didnt not do the database part 
+Database: I didnt not do the database part 
