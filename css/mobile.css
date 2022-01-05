@@ -17,4 +17,10 @@
         padding: 0;
         margin: 0;
     }
+    .image2{
+        display: none;
+    }
+    .image3{
+        display: none;
+    }
 }

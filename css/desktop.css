@@ -97,9 +97,23 @@ h2.welcome{
     color: #fff;
 }
 
-.computingimage{
+.cimage{
     float:left;
     padding: 20px 15px 15px 20px;
+    width: 400px;
+    height: 400;
+}
+.image2{
+    float:left;
+    padding: 20px 15px 15px 20px;
+    width: 400px;
+    height: 400;
+}
+.image3{
+    float:left;
+    padding: 20px 15px 15px 20px;
+    width: 400px;
+    height: 400;
 }
 
 
