@@ -22,4 +22,17 @@
     .image3{
         display: none;
     }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px;
+        }
+    input[type="submit"] {
+        margin: 10px auto;
+        text-align: center;
+        width: 100%;
+        padding: 15px;
+    }
 }

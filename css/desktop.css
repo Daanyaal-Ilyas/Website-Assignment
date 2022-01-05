@@ -122,6 +122,28 @@ h2.welcome{
     font-size: 2em;
     color: #fff;
 }
+form {
+    width: 50%;
+    margin: auto;
+  }
+  form > div {
+    margin: 15px 0;
+    display: flex;
+  }
+  label {
+    display: inline-block;
+    width: 120px;
+  }
+  .submitContainer {
+    justify-content: flex-end;
+  }
+  input[type="submit"] {
+    width: auto;
+    margin: 0;
+  }
+  label{
+      color: #fff;
+  }
 @media screen and (max-width: 960px) {
     .nav{
     position: relative;
